@@ -1,4 +1,9 @@
+## NOTE; caveat: if not found;
+## HIST_SEARCH abccbbc
+###  cat: '/home/YOU/HISTFILES/*': No such file or directory
+### (...) 
 function HIST_SEARCH () { if [ $# != 1 ]; then     echo "input err,  input 1=keyword";  else  kw="$1" && ( cat /home/YOU/{HISTFILES/*,.bash_history} ) | grep --color=auto -i "$kw";     fi; } 
+
 
 ALERT(){
   case "$1" in
@@ -12,3 +17,4 @@ ALERT(){
   [ -n "$3" ] && /bin/echo -n " ($3)"
   /bin/echo
 }
+
