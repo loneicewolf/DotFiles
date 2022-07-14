@@ -2,6 +2,9 @@
 ## HIST_SEARCH abccbbc
 ###  cat: '/home/YOU/HISTFILES/*': No such file or directory
 ### (...) 
+
+## TODO: question: ADD  history?
+## TODO: question: ADD  more files contain history?
 function HIST_SEARCH () { if [ $# != 1 ]; then     echo "input err,  input 1=keyword";  else  kw="$1" && ( cat /home/YOU/{HISTFILES/*,.bash_history} ) | grep --color=auto -i "$kw";     fi; } 
 
 
