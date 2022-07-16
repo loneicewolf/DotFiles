@@ -1,3 +1,5 @@
+- protip: `use  CTRL  +  SPACE`  to **show the file(EXT) current snippets**
+
 
 
 ## C
