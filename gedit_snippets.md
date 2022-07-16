@@ -4,8 +4,9 @@
 
 `=========================================================`
 
+- `Note: that is not a typo. It was intentionally written SHELCODE`
 
-tab trig: SHELLCODE
+tab trig: SHELCODE
 
 ```
 
