@@ -5,7 +5,11 @@
 
 ## TODO: question: ADD  history?
 ## TODO: question: ADD  more files contain history?
-function HIST_SEARCH () { if [ $# != 1 ]; then     echo "input err,  input 1=keyword";  else  kw="$1" && ( cat /home/YOU/{HISTFILES/*,.bash_history} ) | grep --color=auto -i "$kw";     fi; } 
+#v0 function HIST_SEARCH () { if [ $# != 1 ]; then     echo "input err,  input 1=keyword";  else  kw="$1" && ( cat /home/YOU/{HISTFILES/*,.bash_history} ) | grep --color=auto -i "$kw";     fi; } 
+
+#v1
+function HIST_SEARCH () { if [ $# != 1 ]; then echo "input 1=keyword"; else  kw="$1" && ( cat /home/YOU/{HISTFILES/*,.bash_history}  ; history  ) | grep --color=auto -i "$kw"; fi; } 
+
 
 
 ALERT(){
