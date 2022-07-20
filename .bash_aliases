@@ -24,7 +24,35 @@ alias GREP_IPS_2='ip a | grep -Eio "(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[
 alias GREP_URL='grep -Eio "(http|https)://[a-zA-Z0-9./?=_%:-]*"'
 
 
-
 alias PY3_HTTP_1234='python3 -m http.server 1234'
+
+
+alias CD_APPS='cd /RESEARCH/APPS'
+alias CD_APPS_FEROX='cd /RESEARCH/APPS/W/FEROX'
+alias CD_APPS_W_Fx='cd /RESEARCH/APPS/W/firefox/firefox/'
+alias CD_CODE='cd /RESEARCH/CODE/'
+alias CD_TMP='cd /tmp/'
+alias CD_RESEARCH_OPS='cd /RESEARCH/OP/ops/'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
