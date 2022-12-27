@@ -291,3 +291,50 @@ return 0;
 
 ```
 
+
+
+## GLobal
+
+- `name: s1`
+- `tab trig.: S1`
+
+```
+
+
+
+# 
+---
+
+input
+${1:1_description}
+${2:2_description}
+
+output
+$1
+$2
+
+
+---
+
+
+
+
+# 
+---
+
+<details>
+<summary> Click to expand </summary>
+
+abc
+xyz
+
+</details>
+
+---
+
+
+```
+
+
+
+
