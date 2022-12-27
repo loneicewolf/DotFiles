@@ -1,22 +1,22 @@
 - protip: `use  CTRL  +  SPACE`  to **show the file(EXT) current snippets**
 
 
-
-
 ## Global
 
-`SEP, CTRL + R`
+
+- name: DROPD
+- trig.: DROPDOWN
 
 ```
+<details>
+<summary> ${1:Click to Expand HEADER } </summary>
 
+${2:ENTER CONTENTS}
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+</details>
 
-
-
+#### <details><summary> ${1:Click to Expand HEADER } </summary>${2:ENTER CONTENTS}</details>
 ```
-
-
 
 
 
@@ -287,50 +287,6 @@ return 0;
 
 
 --------------------------------------------------
-
-
-```
-
-
-
-## GLobal
-
-- `name: s1`
-- `tab trig.: S1`
-
-```
-
-
-
-# 
----
-
-input
-${1:1_description}
-${2:2_description}
-
-output
-$1
-$2
-
-
----
-
-
-
-
-# 
----
-
-<details>
-<summary> Click to expand </summary>
-
-abc
-xyz
-
-</details>
-
----
 
 
 ```
