@@ -1,14 +1,15 @@
 # DotFiles
 
 not entirely mine/made by me; I have taken from various places on the net.
-
 :warning: risk of falling objects, since this is under construction! :warning:
 
 
-
-
-
-TODO:
+## TODO
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
+- [ ] 
 - [ ] add sources
 - [ ] add pros cons, variations
 - [ ] verify/check
