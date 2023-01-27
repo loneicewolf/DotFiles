@@ -12,6 +12,9 @@ function HIST_SEARCH () { if [ $# != 1 ]; then echo "input 1=keyword"; else  kw=
 
 
 
+# Taken ( and modified ) from CERN
+## https://security.web.cern.ch/advisories/spectre-meltdown/spectre-meltdown-checker.sh
+## https://security.web.cern.ch/advisories/spectre-meltdown/spectre-cpu-microcode-checker.sh
 ALERT(){
   case "$1" in
     R) col="\033[101m\033[30m";;
