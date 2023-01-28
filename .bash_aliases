@@ -36,3 +36,9 @@ alias CD_APPS_W_Fx='cd /RESEARCH/APPS/W/firefox/firefox/'
 alias CD_CODE='cd /RESEARCH/CODE/'
 alias CD_TMP='cd /tmp/'
 alias CD_RESEARCH_OPS='cd /RESEARCH/OP/ops/'
+
+
+alias apt_UPDG='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt-get install upgrade-system && sudo apt full-upgrade'
+
+
+
