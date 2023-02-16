@@ -20,6 +20,11 @@
 ```sh
 # bash_aliases
 
+
+alias ls='ls --size --human-readable --group-directories-first --color -1 --sort=extension'
+
+
+
 ## MISC
 alias CD_TMP='cd /tmp/'
 alias CHTREE_SEP='printf "~~~~~~~~~~\n~~~~~~~~~~\n"'
